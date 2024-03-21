@@ -9,8 +9,8 @@ export default class App extends Component {
     return (
       <div className='App'>
       <Counter />
-
-
+      <Greet name="Clark" heroName="Superman"></Greet>
+`     <Welcome name="Bruce" heroName="Batman"></Welcome>`
       {/* <Message></Message> */}
 
       {/* <Welcome />
