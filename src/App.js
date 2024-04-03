@@ -5,12 +5,14 @@ import Message from './components/Message'
 import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
+import ParentComponent from './components/ParentComponent'
 export default class App extends Component {
   render() {
     return (
       <div className='App'>
-        <FunctionClick />
-        <ClassClick />
+        <ParentComponent myName='Hrishikesh'/>
+        {/* <FunctionClick />
+        <ClassClick /> */}
       {/* <Counter />
       <Greet name="Clark" heroName="Superman"></Greet>
 `     <Welcome name="Bruce" heroName="Batman"></Welcome>` */}
