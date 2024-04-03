@@ -10,7 +10,7 @@ export default class App extends Component {
   render() {
     return (
       <div className='App'>
-        <ParentComponent myName='Hrishikesh'/>
+        <ParentComponent myName='Hrishikesh' myAge='21'/>
         {/* <FunctionClick />
         <ClassClick /> */}
       {/* <Counter />
