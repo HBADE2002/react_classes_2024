@@ -6,11 +6,14 @@ import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import ParentComponent from './components/ParentComponent'
+import NameList from './components/NameList'
 export default class App extends Component {
   render() {
     return (
       <div className='App'>
-        <ParentComponent myName='Hrishikesh' myAge='21'/>
+
+        <NameList />
+        {/* <ParentComponent myName='Hrishikesh' myAge='21'/> */}
         {/* <FunctionClick />
         <ClassClick /> */}
       {/* <Counter />
